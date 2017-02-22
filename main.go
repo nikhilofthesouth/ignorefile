@@ -87,6 +87,10 @@ func main() {
 		for scanner.Scan() {
 			files = append(files, scanner.Text())
 		}
+		if err := scanner.Err(); err != nil {
+			fmt.Errorf("Error reading test files: %v", err)
+			os.Exit(1)
+		}
 	} else {
 		for _, val := range flag.Args() {
 			files = append(files, val)
