@@ -1,0 +1,21 @@
+{
+	"ImportPath": "github.com/nikhilofthesouth/ignorefile",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.2-6-g7f4b1ad",
+			"Rev": "7f4b1adc791766938c29457bed0703fb9134421a"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/fileutils",
+			"Comment": "docs-v1.12.0-rc4-2016-07-15-5289-g89b193adb",
+			"Rev": "89b193adbef142304606b3b7fea5471ac846a28e"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "075e574b89e4c2d22f2286a7e2b919519c6f3547"
+		}
+	]
+}
